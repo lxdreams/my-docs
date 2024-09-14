@@ -12,6 +12,8 @@ h1 {
 @layer base {
     h1 {
         @apply tw-text-3xl;
+        text-align: center;
+        font-weight: 600;
     }
 
     h2 {

@@ -42,5 +42,5 @@ module.exports = {
         },
     },
     // 自定义样式请通过 src/styles/tailwind中的样式实现,不建议通过插件添加
-    plugins: [require('@tailwindcss/line-clamp')],
+    plugins: [],
 };

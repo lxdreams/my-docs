@@ -4,7 +4,7 @@
         "strict": true,
         "jsx": "react",
         "target": "ESNext",
-        "module": "esnext",
+        "module": "ESNext",
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "moduleResolution": "Node",
         "skipLibCheck": true,
@@ -26,11 +26,13 @@
         "pretty": true,
         "noImplicitAny": true,
         "allowJs": false,
+        "ignoreDeprecations": "5.0",
         "suppressImplicitAnyIndexErrors": true,
         "importsNotUsedAsValues": "remove",
         "outDir": "./dist",
         "baseUrl": ".",
         "paths": {
+            "react": ["./node_modules/@types/react"],
             "@/*" : ["./*"],
             "@site/*": ["./*"]
         }
